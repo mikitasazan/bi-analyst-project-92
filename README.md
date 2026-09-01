@@ -72,6 +72,12 @@ curl -sL "https://docs.google.com/spreadsheets/d/1Y_gzrFfOAJfTZo2u-PfU4selSic11d
 
 Должно совпасть с `top_10_popular_products.csv`.
 
+Для `top_10_profitable_products.csv` нужна вторая таблица — с ценами товаров
+(шаг 4); её ссылка нигде в этом репозитории не сохранена, только в тексте
+шага на Хекслете. Если этот шаг снова понадобится пройти с нуля, ссылку
+придётся взять там заново — из самого репозитория `top_10_profitable_products.csv`
+не переcобрать.
+
 **3. Презентация.** `build_presentation.py` пересобирает `presentation.pdf`
 из уже готовых CSV — графики по каждому отчёту плюс слайд с выводами:
 
